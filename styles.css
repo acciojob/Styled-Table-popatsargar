@@ -1,1 +1,47 @@
 /* your code */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fa;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1a73e8;
+  color: white;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #eaf2ff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
